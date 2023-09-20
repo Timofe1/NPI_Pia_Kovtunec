@@ -36,5 +36,6 @@ def func(arg_o: dict, atg_s: dict):
         elif b == None:
             dict_la.update({i: a})
     return dict_la
+
 dict_a.update(func(dict_o, dict_s))
 print(dict_a)
