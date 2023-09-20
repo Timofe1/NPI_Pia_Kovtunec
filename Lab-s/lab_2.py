@@ -10,6 +10,7 @@ def genlist(xx):
         lll.extend(i)
     yield lll
 
+
 def func(arg):
 
         g = genlist(arg)
