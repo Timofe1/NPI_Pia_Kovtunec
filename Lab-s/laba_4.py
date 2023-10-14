@@ -2,8 +2,6 @@
 директории и наименование файла и
 возвращает полный путь к полученному файлу """
 from tkinter import filedialog as fd
-
-
 filename = fd.askopenfilename()
 print(filename)
 
